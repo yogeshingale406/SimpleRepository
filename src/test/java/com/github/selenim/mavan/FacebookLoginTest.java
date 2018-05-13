@@ -12,25 +12,26 @@ import org.testng.annotations.Test;
 
 public class FacebookLoginTest {
 	public WebDriver driver;
-	
+
 	@BeforeTest
 	public void init() {
 		System.setProperty("webdriver.chrome.driver",
-		    	"H:/New folder/ccleaner_4.4.0.exe/Selenium/workspaceWebdriver/BrowserDrivers/chromedriver.exe");
-		    	driver= new ChromeDriver();
-		    	driver.manage().window().maximize();
-		    	driver.get("https://www.fb.com");
-		    	System.out.println(driver.getTitle());
+				"H:/New folder/ccleaner_4.4.0.exe/Selenium/workspaceWebdriver/BrowserDrivers/chromedriver.exe");
+		driver= new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.fb.com");
+		System.out.println(driver.getTitle());
 
 	}
-	
+
 	@Test
 	public void dologin() {
-		
+
 		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("yogesh");
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("yogesh");
 		driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
-		
+		System.out.println("unable to log in..");
+
 	}
 	@AfterTest
 	public void trarDown() {

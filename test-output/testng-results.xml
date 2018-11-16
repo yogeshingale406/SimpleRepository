@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21788" started-at="2018-05-12T09:31:29Z" finished-at="2018-05-12T09:31:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21788" started-at="2018-05-12T09:31:29Z" finished-at="2018-05-12T09:31:51Z">
+      <class name="com.github.selenim.mavan.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.github.selenim.mavan.LoginTest@68c4039c]" name="init" is-config="true" duration-ms="17126" started-at="2018-05-12T09:31:29Z" finished-at="2018-05-12T09:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="dologin()[pri:0, instance:com.github.selenim.mavan.LoginTest@68c4039c]" name="dologin" duration-ms="3726" started-at="2018-05-12T09:31:46Z" finished-at="2018-05-12T09:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="PASS" signature="trarDown()[pri:0, instance:com.github.selenim.mavan.LoginTest@68c4039c]" name="trarDown" is-config="true" duration-ms="880" started-at="2018-05-12T09:31:50Z" finished-at="2018-05-12T09:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trarDown -->
+      </class> <!-- com.github.selenim.mavan.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
